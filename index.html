@@ -1,0 +1,115 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratice</title>
+</head>
+
+<body>
+    <script>
+        // console.log("Welcome! Pooja");
+        // let a=50;
+        // for(let i=1;i<a;i++){
+        //     console.log(i);
+        //     if(i%2==0){
+        //         console.log("even")
+        //     }
+        //     else{
+        //         console.log("odd")
+        //     }
+        // }
+
+        //Finding specific value in a Array
+        // let a=["Prabhu","Ram","Pooja","Shyam"];
+        // for(i=0;i<a.length;i++){
+        //     if(a[i]=="Ram"){
+        //        break;
+        //     }
+        //     else{
+        //     document.write(a[i]);
+        //     }
+        // }
+        //Leap Year
+        // function checkLeapYear(year){
+        //     if(year%4==0){
+                
+        //         document.write("<br/>"+year +" is a leap year");
+        //     }
+        //     else {
+        //         document.write( year + ' is not a leap year');
+        //     }
+
+        // }
+        // const input=prompt("Enter year");
+        // checkLeapYear(input);
+        
+      let fact=1,num
+      function factorial(num) {
+        for(let i=1;i<=num;i++){
+            console.log(i)
+          fact=fact*i;
+        //   console.log(fact);
+      }
+      return fact;
+      }
+      document.write(factorial(5));
+
+    </script>
+</body>
+
+</html> -->
+
+
+<script>
+// let a="Prabhu";
+// let a1=a.split("").reverse().join("");
+// console.log(a1);
+
+// const check=(year)=>{
+// if(year%4==0){
+//   console.log("leap year")
+// }
+// else{
+//   console.log("Not leap");
+// }
+// }
+// const inp=prompt('Input');
+// check(inp);
+
+//Adding Array Values;
+
+// let arr=[10,20,30];
+// var sum=arr.reduce((arr,i)=>{
+//   return arr+i;
+// })
+// console.log(sum);
+// let sum=0;
+
+// setTimeout(()=>{
+//   for(let i in arr){
+//   sum+=arr[i];
+// }
+// console.log(sum);
+// },2000);
+
+// let arr= new Array(name=>'a',
+// age=>23
+// )
+// console.log(arr);
+function isPrime1(n) {
+    if (isNaN(n) || !isFinite(n) || n % 1 || n < 2) return false;
+    var m = Math.sqrt(n); //returns the square root of the passed value
+    for (var i = 2; i <= m; i++)
+        if (n % i == 0) return "Not Prime";
+    return "Prime";
+}
+
+console.log(isPrime1(6));
+
+
+
+
+</script>

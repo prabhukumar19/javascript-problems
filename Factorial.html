@@ -1,0 +1,12 @@
+<script>
+    console.log("Factorial Program");
+    const num=prompt("Enter any number")
+    const Factorial = (num) => {
+        let fact = 1;
+        for (let i = 1; i <= num; i++) {
+            fact = fact * i;
+        }
+        document.write(`The Factorial of ${num} is ${fact}`);
+    }
+    Factorial(num);
+</script>
